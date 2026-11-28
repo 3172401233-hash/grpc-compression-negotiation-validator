@@ -1,0 +1,17 @@
+{
+  "name": "grpc-compression-negotiation-validator",
+  "version": "1.0.0",
+  "description": "离线 gRPC 流压缩协商解析器与代理链策略规划器（不建立真实 gRPC 连接）",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "UNLICENSED"
+}
